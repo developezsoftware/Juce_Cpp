@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="eo9jAK" name="DA MoDelay" projectType="audioplug" pluginFormats="buildAU"
+              pluginCode="Eo8h" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="Phcht4" name="DA MoDelay">
+    <GROUP id="{7043A66C-9841-992B-4CD3-6BFBB8F1DA65}" name="ImgAssets">
+      <FILE id="MT5oqm" name="Background3.png" compile="0" resource="1" file="Source/1x/Background3.png"/>
+      <FILE id="DUdSYh" name="Asset_8.png" compile="0" resource="1" file="Source/Asset_8.png"/>
+      <FILE id="y70Q4a" name="Backgroundtest2.png" compile="0" resource="1"
+            file="Source/1x/Backgroundtest2.png"/>
+      <FILE id="GXSKnN" name="Background test.png" compile="0" resource="1"
+            file="Source/1x/Background test.png"/>
+      <FILE id="zEWdcV" name="Asset7.png" compile="0" resource="1" file="Source/Asset7.png"/>
+    </GROUP>
+    <GROUP id="{68326982-C8C3-9101-3B85-E33CBE80B61A}" name="Managers">
+      <FILE id="h4VII2" name="PresetManager.cpp" compile="1" resource="0"
+            file="Source/PresetManager.cpp"/>
+      <FILE id="TmV0Ew" name="PresetManager.h" compile="0" resource="0" file="Source/PresetManager.h"/>
+    </GROUP>
+    <GROUP id="{2CB5D20F-6C0B-8554-FB57-39AA80DBA620}" name="Parameter Control">
+      <FILE id="dmKwvz" name="ODParameterComboBox.cpp" compile="1" resource="0"
+            file="Source/ODParameterComboBox.cpp"/>
+      <FILE id="RElfof" name="ODParameterComboBox.h" compile="0" resource="0"
+            file="Source/ODParameterComboBox.h"/>
+      <FILE id="eHls6N" name="ODParameterSlider.cpp" compile="1" resource="0"
+            file="Source/ODParameterSlider.cpp"/>
+      <FILE id="I9JkqY" name="ODParameterSlider.h" compile="0" resource="0"
+            file="Source/ODParameterSlider.h"/>
+    </GROUP>
+    <GROUP id="{CF1D7EC1-0538-5951-5A4E-7EAF4899CFFF}" name="Panels">
+      <FILE id="gRyI4b" name="ODPanelBase.cpp" compile="1" resource="0" file="Source/ODPanelBase.cpp"/>
+      <FILE id="xrmPIY" name="ODPanelBase.h" compile="0" resource="0" file="Source/ODPanelBase.h"/>
+      <FILE id="jEbXd3" name="ODCenterPanel.cpp" compile="1" resource="0"
+            file="Source/ODCenterPanel.cpp"/>
+      <FILE id="CAp3Cn" name="ODCenterPanel.h" compile="0" resource="0" file="Source/ODCenterPanel.h"/>
+      <FILE id="FK4bax" name="ODCenterPanelMenuBar.cpp" compile="1" resource="0"
+            file="Source/ODCenterPanelMenuBar.cpp"/>
+      <FILE id="NvnUx7" name="ODCenterPanelMenuBar.h" compile="0" resource="0"
+            file="Source/ODCenterPanelMenuBar.h"/>
+      <FILE id="MHBM9B" name="ODFxPanel.cpp" compile="1" resource="0" file="Source/ODFxPanel.cpp"/>
+      <FILE id="WKsrz2" name="ODFxPanel.h" compile="0" resource="0" file="Source/ODFxPanel.h"/>
+      <FILE id="ktK4HS" name="ODGainPanel.cpp" compile="1" resource="0" file="Source/ODGainPanel.cpp"/>
+      <FILE id="TFisIP" name="ODGainPanel.h" compile="0" resource="0" file="Source/ODGainPanel.h"/>
+      <FILE id="QXwGfY" name="ODMainPanel.cpp" compile="1" resource="0" file="Source/ODMainPanel.cpp"/>
+      <FILE id="H2AYdU" name="ODMainPanel.h" compile="0" resource="0" file="Source/ODMainPanel.h"/>
+      <FILE id="hqwzDJ" name="ODTopPanel.cpp" compile="1" resource="0" file="Source/ODTopPanel.cpp"/>
+      <FILE id="BiDed2" name="ODTopPanel.h" compile="0" resource="0" file="Source/ODTopPanel.h"/>
+    </GROUP>
+    <GROUP id="{A7F70F7C-4E64-267B-36AC-677B637CCC8C}" name="Helpers">
+      <FILE id="rpcMY7" name="LookAndFeel.h" compile="0" resource="0" file="Source/LookAndFeel.h"/>
+      <FILE id="bimt1O" name="ODAudioHelpers.h" compile="0" resource="0"
+            file="Source/ODAudioHelpers.h"/>
+      <FILE id="YEeoY3" name="ODHelperFunctions.h" compile="0" resource="0"
+            file="Source/ODHelperFunctions.h"/>
+      <FILE id="wy7GyJ" name="ODInterfaceDefines.h" compile="0" resource="0"
+            file="Source/ODInterfaceDefines.h"/>
+      <FILE id="TF8xYC" name="ODParameters.h" compile="0" resource="0" file="Source/ODParameters.h"/>
+    </GROUP>
+    <GROUP id="{52E3ACB5-C35A-ADB1-8C80-7B3CE4CFD114}" name="DSP">
+      <FILE id="sFSomi" name="DAFilters.cpp" compile="1" resource="0" file="Source/DAFilters.cpp"/>
+      <FILE id="vUW3qm" name="DAFilters.h" compile="0" resource="0" file="Source/DAFilters.h"/>
+      <FILE id="IrYe8e" name="ODDelay.cpp" compile="1" resource="0" file="Source/ODDelay.cpp"/>
+      <FILE id="OLikz8" name="ODDelay.h" compile="0" resource="0" file="Source/ODDelay.h"/>
+      <FILE id="yZ08Oh" name="ODGain.cpp" compile="1" resource="0" file="Source/ODGain.cpp"/>
+      <FILE id="RMRJje" name="ODGain.h" compile="0" resource="0" file="Source/ODGain.h"/>
+      <FILE id="AGD1XA" name="ODLfo.cpp" compile="1" resource="0" file="Source/ODLfo.cpp"/>
+      <FILE id="bd3GTH" name="ODLfo.h" compile="0" resource="0" file="Source/ODLfo.h"/>
+      <FILE id="g4XGKB" name="OPPanner.cpp" compile="1" resource="0" file="Source/OPPanner.cpp"/>
+      <FILE id="zZwUrO" name="OPPanner.h" compile="0" resource="0" file="Source/OPPanner.h"/>
+    </GROUP>
+    <GROUP id="{BCAD95D5-6BC0-9FD4-53FA-64CCEF21A2EA}" name="Source">
+      <FILE id="FF4QmX" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="nR3vGH" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="FygAtJ" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="arvRvh" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../Downloads/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../Downloads/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../Downloads/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../Downloads/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../Downloads/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../Downloads/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../Downloads/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../Downloads/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../Downloads/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../Downloads/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../Downloads/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../Downloads/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../Downloads/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../Downloads/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
